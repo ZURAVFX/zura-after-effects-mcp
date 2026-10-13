@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExtensionManifest Version="7.0" ExtensionBundleId="com.zuravfx.aftereffects.bridge" ExtensionBundleVersion="1.0.0" ExtensionBundleName="Zura After Effects MCP">
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.zuravfx.aftereffects.bridge" ExtensionBundleVersion="1.0.1" ExtensionBundleName="Zura After Effects MCP">
   <ExtensionList>
-    <Extension Id="com.zuravfx.aftereffects.bridge.panel" Version="1.0.0"/>
-    <Extension Id="com.zuravfx.aftereffects.bridge.headless" Version="1.0.0"/>
+    <Extension Id="com.zuravfx.aftereffects.bridge.panel" Version="1.0.1"/>
+    <Extension Id="com.zuravfx.aftereffects.bridge.headless" Version="1.0.1"/>
   </ExtensionList>
   <ExecutionEnvironment>
     <HostList>

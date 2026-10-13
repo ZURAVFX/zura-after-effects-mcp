@@ -53,7 +53,7 @@ tool('remove_keyframe','Remove one key by its inspected 1-based index.',{...prop
 tool('set_keyframe_interpolation','Set linear, bezier or hold interpolation and verify it.',{...prop,key_index:id,in_type:z.enum(['linear','bezier','hold']),out_type:z.enum(['linear','bezier','hold'])});
 const ease=z.array(z.object({speed:z.number().finite(),influence:z.number().min(0.1).max(100)})).min(1).max(3);
 tool('set_temporal_ease','Set speed and influence per animated dimension.',{...prop,key_index:id,in_ease:ease,out_ease:ease});
-tool('set_expression','Set an expression only with explicit unsafe-script capability; read back expression errors.',{...prop,expression:z.string().max(100000)},'unsafe-script');
+tool('set_expression','Set or clear a native AE property expression. Verify stored text and expression errors. Uses the normal edit capability; does not execute arbitrary host scripts.',{...prop,expression:z.string().max(100000)});
 tool('remove_property','Remove an inspected effect/mask/shape property. Group must support removal.',prop);
 tool('expose_mogrt_property','Expose a supported property in Essential Graphics. API return alone is unverified.',{...prop,name});
 tool('export_mogrt','Export the composition to an existing directory. Inspect the resulting file separately.',{...comp,path,overwrite:z.boolean().default(false)},'export');

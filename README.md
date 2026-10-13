@@ -28,11 +28,11 @@ For another MCP client, run `npm ci`, `npm run build` and `npm run install-cep`,
 | Authoring | Compositions, folders, footage, native text, rectangle/ellipse shapes, solids, nulls, lights and cameras |
 | Layers | Timing and flags, duplication/removal, parenting, reordering, source replacement, blend modes, track mattes, precomposition and markers |
 | Properties | Scalar/vector values, text editing, shape vertices/tangents, effects and masks |
-| Animation | Bulk keyframes, interpolation, temporal easing and spatial tangents; opt-in expressions |
+| Animation | Bulk keyframes, interpolation, temporal easing and spatial tangents; native property expressions |
 | Output | Project saving, image-sequence import/FPS interpretation, PNG frames, render queue outputs and Essential Graphics/MOGRT operations |
 | Efficiency | Bounded edit batches, paginated discovery and correlated request/results |
 
-The tool catalogue is generated from `src/tools.ts`. Inspect `get_capabilities` for the enabled catalogue. Default capabilities are `inspect,edit,export,filesystem`; `unsafe-script` is disabled. Configure `AFTER_EFFECTS_MCP_CAPABILITIES` to narrow access. Configure `AFTER_EFFECTS_MCP_TEMP_DIR` only when both client and panel need a custom bridge location.
+The tool catalogue is generated from `src/tools.ts`. Inspect `get_capabilities` for the enabled catalogue. Default capabilities are `inspect,edit,export,filesystem`; `unsafe-script` is disabled; native property expressions are ordinary `edit` operations and do not require it. Configure `AFTER_EFFECTS_MCP_CAPABILITIES` to narrow access. Configure `AFTER_EFFECTS_MCP_TEMP_DIR` only when both client and panel need a custom bridge location.
 
 ## Result contract
 

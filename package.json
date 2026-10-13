@@ -1,6 +1,6 @@
 {
   "name": "zura-after-effects-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Local MCP and CEP connector for Adobe After Effects with correlated requests and verified property edits.",
   "type": "module",
   "bin": {
