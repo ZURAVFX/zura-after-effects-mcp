@@ -27,4 +27,3 @@ Both public MCPs share the panel stylesheet, green palette, responsive layout, t
 7. Native preview PNG colour behaviour on 32-bit projects was corrected with a one-frame render queue fallback. A live pixel check matched the requested green (175,255,65). Broader colour-space fixtures remain needed; no project colour settings are changed.
 
 Premiere already has focused tool packs, supported static framing, footage interpretation, export discovery and runtime UXP probing. The comparison did not justify substituting an unsafe batch/QE timeline assembly path. Existing Premiere full-suite failures remain a separate validation debt; its changed panel receives targeted checks.
-

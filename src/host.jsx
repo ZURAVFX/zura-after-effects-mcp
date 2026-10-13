@@ -111,4 +111,3 @@ function __zuraRun(op,a,mutating) {
   } catch(e) { return __zuraJson({success:false,status:started?"possibly_modified":"failed",error:String(e),retry_safe:!started}); }
   finally {if(grouped)app.endUndoGroup();}
 }
-

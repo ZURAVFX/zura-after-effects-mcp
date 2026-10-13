@@ -14,4 +14,3 @@ Require `verified` results or explicit readback. For `committed_unverified` or `
 Expressions require the user's explicit `unsafe-script` capability. Do not enable it to cover a missing ordinary tool. Use Computer Use only for an essential host operation absent from supported tools after identifying the precise gap. Routine inspection, editing, animation and export use MCP.
 
 Installation is handled by the public repository's platform installer. It builds a durable per-user runtime, installs the CEP panel and this skill, and verifies an absolute Codex MCP registration. Restart AE only if it was open during installation; use a new Codex chat for the refreshed MCP catalogue.
-

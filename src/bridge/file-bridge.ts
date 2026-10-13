@@ -548,7 +548,7 @@ function ensureHelpers(tempDir: string, helpers?: BridgeHelpers): string {
 
 /**
  * Send a command (ExtendScript) to the CEP plugin and wait for a response.
- * 
+ *
  * Protocol:
  * 1. Write the script to a staging file, then atomically publish it as
  *    <tempDir>/cmd_<id>.jsx. The CEP panel only sees complete commands.
@@ -895,5 +895,3 @@ export function cleanupTempDir(options?: BridgeOptions): void {
     // Ignore cleanup errors
   }
 }
-
-

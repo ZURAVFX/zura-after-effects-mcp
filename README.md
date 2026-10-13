@@ -47,4 +47,3 @@ Native `saveFrameToPng` is asynchronous; the server waits for a fresh PNG with m
 Use Node 20.19+ (Node 24 recommended). `npm ci` then `npm run check`. Unit/contract tests and a real stdio client test cover guards, escaping, readback, batch failures and discovery. `node scripts/live-check.mjs` explicitly creates a named test composition in the open AE project and exports a frame; it never runs during installation.
 
 See [the comparison and remaining gaps](docs/architecture-audit.md) and [provenance](UPSTREAM.md). Independent project, not affiliated with Adobe.
-

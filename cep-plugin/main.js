@@ -165,5 +165,3 @@
   // no one to click Start, so without this the connector never ran unattended.
   setTimeout(start, 500);
 }());
-
-

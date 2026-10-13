@@ -285,4 +285,3 @@ button:focus-visible, summary:focus-visible, input:focus-visible, #log:focus-vis
   .bridge-status, .connection-checks li, .path-field input, #log, .button, .codex-guide { border-color: CanvasText; }
   button:focus-visible, summary:focus-visible, input:focus-visible, #log:focus-visible { outline-color: Highlight; }
 }
-
