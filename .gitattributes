@@ -1,0 +1,4 @@
+*.sh text eol=lf
+*.command text eol=lf
+*.ts text eol=lf
+*.jsx text eol=lf

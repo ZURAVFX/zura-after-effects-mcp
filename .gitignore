@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+.env
+*.aep
+*.aepx
+artifacts/
+.zura-build-state.json
